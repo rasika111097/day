@@ -1,0 +1,174 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+body {
+  background: #f3f2ef;
+  color: #333;
+}
+
+/* Navbar */
+.navbar {
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 40px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: bold;
+  color: #0a66c2;
+}
+
+.search {
+  padding: 8px 12px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  width: 250px;
+}
+
+nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #555;
+  font-size: 14px;
+}
+
+nav a:hover {
+  color: #0a66c2;
+}
+
+/* Container */
+.container {
+  display: flex;
+  gap: 25px;
+  padding: 30px 40px;
+}
+
+/* Cards */
+.card {
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.06);
+}
+
+/* Profile Card */
+.profile-card {
+  width: 320px;
+  text-align: center;
+}
+
+.profile-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+  border: 3px solid #0a66c2;
+}
+
+.role {
+  color: gray;
+  margin: 5px 0 10px;
+  font-size: 14px;
+}
+
+/* Rating */
+.rating {
+  margin: 10px 0;
+  font-size: 14px;
+}
+
+/* Buttons */
+.actions {
+  margin: 15px 0;
+}
+
+.btn {
+  padding: 8px 14px;
+  border-radius: 20px;
+  border: 1px solid #0a66c2;
+  background: white;
+  color: #0a66c2;
+  cursor: pointer;
+  margin: 5px;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #e7f3ff;
+}
+
+.btn.primary {
+  background: #0a66c2;
+  color: white;
+}
+
+.btn.primary:hover {
+  background: #004182;
+}
+
+/* Sections */
+.section {
+  text-align: left;
+  margin-top: 20px;
+}
+
+.section h4 {
+  margin-bottom: 8px;
+  color: #0a66c2;
+}
+
+/* Skills */
+.skills {
+  list-style: none;
+}
+
+.skills li {
+  background: #f3f6f9;
+  padding: 6px 10px;
+  border-radius: 6px;
+  margin-bottom: 6px;
+  font-size: 13px;
+}
+
+/* About Card */
+.about-card {
+  flex: 1;
+}
+
+/* Tabs */
+.tabs {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.tabs button {
+  padding: 6px 14px;
+  border-radius: 20px;
+  border: none;
+  background: #eee;
+  cursor: pointer;
+}
+
+.tabs button.active {
+  background: #0a66c2;
+  color: white;
+}
+
+/* Text spacing */
+.about-card p {
+  margin: 6px 0;
+}
